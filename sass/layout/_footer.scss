@@ -1,0 +1,55 @@
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+.page-footer__container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  @media screen and (min-width: 1200px) {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.page-footer__address {
+  font-style: normal;
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-right: 165px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
+}
+.page-footer__logo {
+  display: block;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.page-footer__mail,
+.page-footer__tel {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+
+  @include transition-base(color);
+
+  &:hover,
+  &:focus {
+    color: $color-accent;
+  }
+}
+.page-footer__mail {
+  margin-bottom: 8px;
+}
+.page-footer__location {
+  margin: 0;
+  margin-bottom: 8px;
+  color: $color-secondary-text;
+}

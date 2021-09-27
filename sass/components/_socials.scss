@@ -1,0 +1,30 @@
+.socials-list {
+  display: flex;
+  justify-content: center;
+}
+.socials-list__item:not(:last-child) {
+  margin-right: 10px;
+}
+.socials-list__link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  color: #afb1b8;
+  background-color: #ffffff;
+
+  @include transition-base(background-color, color);
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: $color-accent;
+  }
+}
+.socials-list__icon {
+  fill: currentColor;
+}

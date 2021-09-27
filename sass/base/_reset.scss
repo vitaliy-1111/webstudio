@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+
+  background-color: $color-background;
+  color: $color-main-text;
+
+  font-family: $font-family;
+  font-size: $font-size-base;
+  line-height: 1.46;
+  letter-spacing: 0.03em;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.link {
+  text-decoration: none;
+}

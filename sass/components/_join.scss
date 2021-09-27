@@ -1,0 +1,35 @@
+.join {
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
+}
+.join__text,
+.signup-form__text {
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-weight: $font-bold;
+  font-size: $font-size-base;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+}
+
+.socials-list__link--color {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  &:focus,
+  &:hover {
+    color: #ffffff;
+    background-color: $color-accent;
+  }
+}

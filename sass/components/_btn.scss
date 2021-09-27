@@ -1,0 +1,32 @@
+.button {
+  display: block;
+  min-width: 200px;
+  min-height: 50px;
+
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 32px;
+
+  border-radius: 4px;
+  border: none;
+
+  color: #ffffff;
+  background-color: $color-accent;
+
+  box-shadow: $btn-box-shadow;
+
+  font-weight: $font-bold;
+  font-size: $font-size-large;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+
+  @include transition-base(background-color);
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+}
