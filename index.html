@@ -50,7 +50,7 @@
         </svg>
       </button>
     </div>
-    <div class="mobile-menu js-menu-container container">
+    <div class="mobile-menu js-menu-container container" id="mobile-menu">
       <button type="button" class="mobile-menu__button-close js-close-menu" aria-label="close menu">
         <svg class="mobile-menu__icon" width="18" height="18">
           <use href="./images/icons.svg#icon-close-menu"></use>
@@ -482,7 +482,7 @@
       </div>
       <form action="#" class="signup-form">
         <b class="signup-form__text">Подпишитесь на рассылку</b>
-        <input type="email" name="signup-email" class="signup-form__input" placeholder="E-mail">
+        <input type="email" name="signup-email" class="signup-form__input" placeholder="E-mail" />
         <button type="submit" class="signup-form__button button">
           Подписаться
           <svg class="signup-form__icon-send" width="24" height="24">
@@ -490,6 +490,7 @@
           </svg>
         </button>
       </form>
+    </div>
   </footer>
   <!--Modal Window -->
   <div class="backdrop backdrop--is-hidden" data-modal>
@@ -505,7 +506,7 @@
         <label class="modal-form__field">
           <span class="modal-form__label">Имя</span>
           <span class="modal-form__input-container">
-            <input type="text" name="user-name" class="modal-form__input" placeholder=" "></input>
+            <input type="text" name="user-name" class="modal-form__input" placeholder=" " />
             <svg class="modal-form__icon" width="18" height="18">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
@@ -514,7 +515,7 @@
         <label class="modal-form__field">
           <span class="modal-form__label">Телефон</span>
           <span class="modal-form__input-container">
-            <input type="tel" name="user-tel" class="modal-form__input" placeholder=" "></input>
+            <input type="tel" name="user-tel" class="modal-form__input" placeholder=" " />
             <svg class="modal-form__icon" width="18" height="18">
               <use href="./images/icons.svg#icon-tel"></use>
             </svg>
@@ -523,7 +524,7 @@
         <label class="modal-form__field">
           <span class="modal-form__label">Почта</span>
           <span class="modal-form__input-container">
-            <input type="email" name="user-email" class="modal-form__input" placeholder=" "></input>
+            <input type="email" name="user-email" class="modal-form__input" placeholder=" " />
             <svg class="modal-form__icon" width="18" height="18">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
